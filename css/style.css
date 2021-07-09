@@ -7,6 +7,11 @@
 	color: #fff;
 }
 
+:root {
+	touch-action: pan-x pan-y;
+	height: 100% 
+}
+
 body {
 	font-family: "Nunito", sans-serif;
 	overflow: hidden;
@@ -268,7 +273,7 @@ a:hover {
 
 @media screen and (max-width: 900px) {
 	.container {
-		grid-template-columns: 1fr;
+		/* grid-template-columns: 1fr; */
 	}
 
 	.img {
