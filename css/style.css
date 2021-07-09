@@ -62,11 +62,15 @@ form {
 	padding: 0 0.4rem;
 	position: relative;
 	-webkit-transition: .4s;
-  	transition: .4s;
+	transition: .4s;
 }
 
-input:focus .input-field {
-	border: 2px solid red;
+.input-field:focus-within {
+	border: 2px solid #F4A517;
+}
+
+.input-field:focus-within input::placeholder {
+	color: #F4A517;
 }
 
 .input-field i {
