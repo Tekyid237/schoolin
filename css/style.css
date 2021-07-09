@@ -47,7 +47,7 @@ form {
 }
 
 .login-content img {
-	height: 100px;
+	width: 100%;
 }
 
 .login-content .logo {
@@ -256,7 +256,8 @@ form {
 	}
 
 	.login-content .logo {
-		width: 15rem;
+		margin-top: 5rem;
+		width: 75%;
 		text-align: center;
 	}
 }
