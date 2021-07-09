@@ -151,16 +151,29 @@ a:hover{
 }
 
 .btn{
+	/* width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 50px;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+	background-image: linear-gradient(to right, #D9910A, #F4A517, #D9910A);
+	font-size: 1.2rem; */
+
 	display: block;
 	width: 100%;
 	height: 50px;
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #D9910A, #F4A517, #D9910A);
 	background-size: 200%;
-	font-size: 1.3rem;
 	font-family: "Nunito";
+	font-size: 1.2rem;
+	background-image: linear-gradient(to right, #D9910A, #F4A517, #D9910A);
 	color: #fff;
 	margin: 1rem 0;
 	cursor: pointer;
