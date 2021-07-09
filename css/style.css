@@ -77,8 +77,13 @@ form {
 	text-align: center;
 	line-height: 55px;
 	color: #84CEE4;
-	transition: 0.5s;
 	font-size: 1.1rem;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.input-field:focus-within i{
+	color: #F4A517;
 }
 
 .input-field input {
@@ -90,7 +95,8 @@ form {
 	color: #fff;
 	font-family: "Nunito";
 	font-weight: 600;
-	transition: .4s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
 
 .input-field input::placeholder {
@@ -231,7 +237,7 @@ a:hover {
 	color: #fff;
 	margin: 1rem 0;
 	cursor: pointer;
-	transition: .5s;
+	transition: .4s;
 }
 
 .btn:hover {
