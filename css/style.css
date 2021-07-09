@@ -38,7 +38,7 @@ body {
 }
 
 form {
-	width: 360px;
+	width: 380px;
 }
 
 .login-content img {
@@ -247,7 +247,7 @@ a:hover {
 
 @media screen and (max-width: 1000px) {
 	form {
-		width: 290px;
+		width: 400px;
 	}
 
 	.login-content h2 {
@@ -271,5 +271,10 @@ a:hover {
 
 	.login-content {
 		justify-content: center;
+	}
+
+	.login-content .logo {
+		width: 15rem;
+		text-align: center;
 	}
 }
