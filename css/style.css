@@ -245,7 +245,6 @@ form {
 	.container {
 		/* grid-template-columns: 1fr; */
 		display: inline-block;
-		padding-top: 5rem;
 	}
 
 	.img {
@@ -259,5 +258,6 @@ form {
 	.login-content .logo {
 		width: 75%;
 		text-align: center;
+		padding-top: 5rem;
 	}
 }
